@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    color: red;
+}
+.navbar{
+    background-color: blue;
+    display: flex;
+    color: white;
+    padding: 30px 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menus{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

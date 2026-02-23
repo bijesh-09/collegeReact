@@ -1,0 +1,18 @@
+.card{
+    background-color: red;
+    color: white;
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 40px;
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
