@@ -9,12 +9,12 @@ let ListRendering = () => {
     let studentObject = [
         {
             fullName:  "Bibek Shresta",
-        marks: {
-            c: 98,
-            english: 56,
-            math: 45
-        },
-        address: ["Kathmandu", "Lalitpur", "Bhaktapur"]
+            marks: {
+                c: 98,
+                english: 56,
+                math: 45
+            },
+            address: ["Kathmandu", "Lalitpur", "Bhaktapur"]
         }
     ]
     return(

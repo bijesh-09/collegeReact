@@ -1,0 +1,24 @@
+.fsm-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fsm-card{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    background-color: aqua;
+    min-width: 200px;
+    max-width: 200px;
+    transition: 0.5s all ease-in-out; 
+    /* "all" in transition applies to all the properties in deifned in hover part  like box-shadoe, transform, etc, but instead of "all" if we use "transform" then the transition applies to only transform property */
+}
+.fsm-card:hover{
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4);
+    background-color: red;
+}

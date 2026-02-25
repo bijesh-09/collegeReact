@@ -9,6 +9,7 @@ import ThemeUpdate from './Day-6/ThemeUpdate.jsx'
 import ConditionalRendering from './Day-6/conditionalRendering.jsx'
 import ListRendering from './day7/listRendering.jsx'
 import FoodMenu from './day7/foodMenu.jsx'
+import FoodSubMenu from './day7/foodSubMenu.jsx'
 
 
 let myObject = {
@@ -32,5 +33,6 @@ createRoot(document.getElementById('root')).render(
     <ConditionalRendering />
     <ListRendering />
     <FoodMenu />
+    <FoodSubMenu />
   </StrictMode>
 )
