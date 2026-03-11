@@ -10,6 +10,9 @@ import ConditionalRendering from './Day-6/conditionalRendering.jsx'
 import ListRendering from './day7/listRendering.jsx'
 import FoodMenu from './day7/foodMenu.jsx'
 import FoodSubMenu from './day7/foodSubMenu.jsx'
+import UncontrolledForm from './day8/uncontrolledForm.jsx'
+import ControlledForm from './day8/controlledForm.jsx'
+import UseEffectHook from './day9/useEffectHook.jsx'
 
 
 let myObject = {
@@ -34,5 +37,8 @@ createRoot(document.getElementById('root')).render(
     <ListRendering />
     <FoodMenu />
     <FoodSubMenu />
+    <UncontrolledForm />
+    <ControlledForm />
+    <UseEffectHook />
   </StrictMode>
 )
