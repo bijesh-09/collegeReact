@@ -13,6 +13,8 @@ import FoodSubMenu from './day7/foodSubMenu.jsx'
 import UncontrolledForm from './day8/uncontrolledForm.jsx'
 import ControlledForm from './day8/controlledForm.jsx'
 import UseEffectHook from './day9/useEffectHook.jsx'
+import UseMemoExample from './day9/UseMemoExample.jsx'
+import UseCallBackExample from './day9/UseCallBackExample.jsx'
 
 
 let myObject = {
@@ -22,7 +24,10 @@ let myObject = {
 }
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode> it is for dev purpose, so it renders the component twice to find any side effects , to check lifecycle of components, but it is not recommended to use in production
+  //   <App />
+  // </StrictMode>
+  <div>
     {/* <App /> */}
     <Navbar />
     <First address={"Dehli"} age={56} fullName="Ram Prasad" /> 
@@ -40,5 +45,7 @@ createRoot(document.getElementById('root')).render(
     <UncontrolledForm />
     <ControlledForm />
     <UseEffectHook />
-  </StrictMode>
+    <UseMemoExample />
+    <UseCallBackExample />
+  </div>
 )
