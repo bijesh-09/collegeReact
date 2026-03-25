@@ -1,0 +1,17 @@
+.common-p{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.light-p{
+    color: teal;
+    background-color: lightgray;
+}
+.dark-p{
+    color: red;
+    background-color: yellow;
+}

@@ -15,6 +15,8 @@ import ControlledForm from './day8/controlledForm.jsx'
 import UseEffectHook from './day9/useEffectHook.jsx'
 import UseMemoExample from './day9/UseMemoExample.jsx'
 import UseCallBackExample from './day9/UseCallBackExample.jsx'
+import Counter from './day9/counter.jsx'
+import Comments from './day13/Comments.jsx'
 
 
 let myObject = {
@@ -28,14 +30,14 @@ createRoot(document.getElementById('root')).render(
   //   <App />
   // </StrictMode>
   <div>
-    {/* <App /> */}
+    <App />
     <Navbar />
-    <First address={"Dehli"} age={56} fullName="Ram Prasad" /> 
+    <First address={"Dehli"} age={56} fullName="Ram Prasad" />
     {/* its like passing attributes to normal tag like: <h1 style="color:red">
     note: strings can be writeen like wither {"Dehli"} or "Dehli", but integers must need '{}' */}
     <First {...myObject} />
     {/* here we are spreading the object as props to the First component */}
-    <Profile/>
+    <Profile />
     <Greet />
     <ThemeUpdate />
     <ConditionalRendering />
@@ -47,5 +49,7 @@ createRoot(document.getElementById('root')).render(
     <UseEffectHook />
     <UseMemoExample />
     <UseCallBackExample />
+    <Counter />
+    <Comments />
   </div>
 )
