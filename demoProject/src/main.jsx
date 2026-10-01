@@ -17,6 +17,11 @@ import UseMemoExample from './day9/UseMemoExample.jsx'
 import UseCallBackExample from './day9/UseCallBackExample.jsx'
 import Counter from './day9/counter.jsx'
 import Comments from './day13/Comments.jsx'
+import Acomp from './day9/useContext.jsx'
+import MyHome from './day9/home.jsx'
+import MyMenu from './day9/menu.jsx'
+import CustomThemeContextProvider from './day9/CustomThemeContextProvider.jsx'
+import UseEffectHookCleanUp from './day9/useEffectHookCleanUp.jsx'
 
 
 let myObject = {
@@ -47,9 +52,15 @@ createRoot(document.getElementById('root')).render(
     <UncontrolledForm />
     <ControlledForm />
     <UseEffectHook />
+    <UseEffectHookCleanUp />
     <UseMemoExample />
     <UseCallBackExample />
     <Counter />
+    <Acomp />
+    <CustomThemeContextProvider>
+      <MyHome />
+      <MyMenu />
+    </CustomThemeContextProvider>
     <Comments />
   </div>
 )
